@@ -1,4 +1,5 @@
-.container {
+.my_container {
+	clear: both;
 	background-image: url('http://images.rockinguitarlessons.com/bg-2.png');
 	background-position: center top;
 	background-repeat: repeat-y;
@@ -11,14 +12,52 @@
 	
 }
 
-#page-header {
-	background: url('http://images.rockinguitarlessons.com/red_texture_fit_1440.png') center no-repeat;
+.content_bg {
+	background: url('http://images.rockinguitarlessons.com/subtle_net_nearly_white.png') repeat;
+	max-width: 1440px;
+	width: 100%;
+	height: 100%;
+	float: none;
+	position: relative;
+	z-index: -9;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+
+.red-topper {
+	background: url('http://images.rockinguitarlessons.com/red_texture_fit_1440.png');
+	background-position: center top;
+	background-repeat: no-repeat;
 	max-width: 1440px;
 	width: 100%;
 	height: auto;
 	float: none;
+	margin: 0 auto;
 	position: relative;
-	z-index: -9;
+	overflow: visible;
+	z-index: -8;
+	display: block;
+}
+
+.header-bg {
+	background-image: url('http://images.rockinguitarlessons.com/header-with-beta-1440.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 1440px;
+	width: 100%;
+	height: 220px;
+	float: none;
+	position: relative;
+	display: block;
+
+	
+}
+
+#site-nav {
+	float: right;
 }
 
 .logo {
